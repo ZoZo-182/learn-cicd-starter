@@ -33,5 +33,5 @@ jobs:
         with:
           go-version: '1.23.0'
 
-      - name: Check for formatting
+      - name: Check for correct formatting
         run: test -z $(go fmt ./...)
