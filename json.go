@@ -32,5 +32,5 @@ func respondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 	if err != nil {
 		fmt.Println("error writing to header:", err)
 	}
-	fmt.Printf("Wrote %d bytes to file\n", bytesWritten)
+	fmt.Printf("Wrote %d bytes to file\n", byteswritten)
 }
